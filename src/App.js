@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
+import { Toaster } from 'react-hot-toast';
+import './styles/globals.css';
 
 function App() {
   return (
