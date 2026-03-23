@@ -1,15 +1,15 @@
-import './App.css'
+import './App.css';
 
 function App() {
   return (
     <div className="p-8 space-y-4">
-      <h1 className="text-3xl font-bold underline">Hello World</h1>
+      <h1 className="bg-mint-500">Hello World</h1>
 
       {/* Test Background Colors */}
-      <div className="p-4 primary text-text">primary</div>
+      <div className="p-4 bg-primary text-text ">primary</div>
       <div className="p-4 bg-secondary text-text">secondary</div>
       <div className="p-4 bg-accent text-text">accent</div>
-      <div className="p-4 bg-highlight text-text">highlight</div>
+      <div className="p-4 bg-highlight">highlight</div>
 
       {/* Test Text Colors */}
       <p className="text-primary">text-primary</p>
